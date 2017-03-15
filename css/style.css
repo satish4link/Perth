@@ -1,0 +1,329 @@
+body{
+
+}
+.no-padding{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+.no-margin{
+	margin-left:0!important;
+	margin-right:0!important;
+}
+.clearfix{
+	clear:both;
+}
+/*----------------------------*/
+/* header class */
+.header{
+	width:100%;
+	overflow:hidden;
+	background: url("../images/banner.png") no-repeat;
+	background-size: cover;
+	
+}
+.logo {
+
+}
+.logo a:link,.logo a:visited{
+	font-family: 'Kaushan Script', cursive;
+	color:#4eacdd;
+	text-decoration:none;
+	font-size:50px;
+	background: #ffffff;
+	padding:15px 32px;
+	box-shadow:10px 10px 3px #3099c1;
+}
+
+/* for overlay navigation bar */
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(243, 120, 122, 0.88);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a:link,
+.overlay a:visited{
+	text-decoration: none;
+	color:#ffffff;
+}
+.overlay-content a:link,
+.overlay-content a:visited {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    font-style:italic;
+    font-weight:bold;
+}
+.overlay a:hover, .overlay a:focus {
+    color: skyblue;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 7%;
+    font-size: 50px !important;
+}
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+  
+}
+/* end of overlay navigation bar */
+
+.nav{
+	text-align: right;
+}
+.nav i{
+	color:#ffffff;
+	font-size:30px;
+	margin:20px 0;
+	cursor:pointer;
+}
+
+.header-content{
+	text-align: right;
+	color:#ffffff;
+	padding-top:50px;
+}
+.header-content h1{
+	font-size:50px;
+	text-transform: capitalize;
+	font-family: 'Kaushan Script', cursive;
+}
+.header-content p{
+	font-size:25px;
+}
+.header-content p span{
+	font-style:italic;
+	font-weight:bold;
+}
+.header-button{
+	text-align: right;
+	padding:30px 0;
+}
+.header-button a:link,.header-button a:visited{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-size:11px;
+	padding:15px 25px;
+	border:1px solid #ffffff;
+	text-decoration: none;
+	font-weight:bold;
+}
+.header-button a:hover{
+	color:#4eacdd;
+	background: #ffffff;
+}
+.iphone5{
+	background: url("../images/iphone.png") no-repeat;
+	height:300px;
+	width:100%;
+}
+
+/* section content */
+.content{
+	background: #f4f4f4;
+	width:100%;
+	padding-top:60px;
+}
+.about-me h1{
+	text-transform: capitalize;
+	padding:5px 0;
+}
+.about-me p{
+	color:gray;
+	padding:5px 0;
+	font-size:16px;
+}
+.about-me blockquote{
+	border-color:#4eacdd;
+	font-size:16px;
+	color:gray;
+	font-style:italic;
+}
+.button{
+	margin:40px 0;
+	text-transform: uppercase;
+	color:#14af8f;
+	border-color:#14af8f;
+	padding:15px 25px;
+	background: #f4f4f4;
+}
+.button:hover{
+	color: #f4f4f4;
+	background: #14af8f;
+}
+.ipad-flat{
+	margin-top:50px;
+	background:url("../images/ipad.png") no-repeat;
+	height:400px;
+}
+
+/* section content1 */
+.content1{
+	
+}
+.portfolio-image{
+	margin-top:150px;
+	background:url("../images/devices.png") no-repeat;
+	height:280px;
+}
+.portfolio{
+	padding:50px 0;
+}
+.portfolio span{
+	font-style:italic;
+	font-weight:bold;
+	padding:20px 0;
+}
+.portfolio p{
+	color:gray;
+	padding:20px 0;
+}
+.button2{
+	text-transform: uppercase;
+	color:#F561BF;
+	border-color:#F3787A;
+	padding:15px 25px;
+	background: #ffffff;
+}
+.button2:hover{
+	background:#F3787A;
+	color:#ffffff;
+}
+
+/* for content3 section */
+.content3{
+	width:100%;
+	overflow: hidden;
+	background-size:cover!important;
+	background: url("../images/donate-banner.png") no-repeat;
+	text-align: center;
+	padding:80px 0;
+}
+.donate h1{
+	text-transform: capitalize;
+	color:#ffffff;
+}
+.button3{
+	text-transform: uppercase;
+	color:#ffffff;
+	border-color:#ffffff;
+	padding:12px 30px;
+	background: none;
+	margin:20px 0;
+}
+.button3:hover{
+	background: #ffffff;
+	color:#0fad8c;
+}
+/* for content4 section */
+.content4{
+	background: #f4f4f4;
+}
+.contact{
+	padding:150px 0;
+	text-align: center;
+}
+.social-icons ul li{
+	display: inline-block;
+}
+.social-icons ul li a:link,
+.social-icons ul li a:visited{
+	border:2px solid #000000;
+	color:black;
+	text-decoration: none;
+	padding:15px 17px;
+	border-radius: 100%;
+	font-size:20px;
+}
+.newsletter-input{
+	padding-top:50px;
+}
+.newsletter-input p{
+	text-transform: capitalize;
+	font-weight:bold;
+	font-style: italic;
+}
+input[type="text"]{
+	padding:10px 0;
+	border-radius: 10px;
+	margin-left:20px;
+}
+
+/* for footer section */
+.footer{
+	padding:30px 0 15px 0;
+}
+.footer-content{
+	text-align: center;
+}
+.footer-content p{
+	font-weight:bold;
+	font-style:italic;
+}
+.footer-content p span{
+	font-style:normal;
+	color:#4eacdd;
+}
+
+@media screen and (max-width:768px){
+
+	/*  for section header */
+	.header-content, .header-button{
+		text-align: center;
+	}
+	.iphone5{
+		height:200px;
+	}
+
+	/* for content section */
+	.content{
+		padding-top:30px;
+	}
+	.about-me h1{
+		font-size:25px;
+	}
+	.about-me p, .about-me blockquote{
+		font-size:15px;
+		text-align:justify;
+	}
+	.button{
+		margin:10px 0;
+	}
+	.ipad-flat{
+		background:url("../images/ipad-xs.png") no-repeat;
+		height:250px;
+	}
+	
+	/* for content1 section */
+
+	.portfolio{
+		text-align: justify;
+	}
+	.portfolio-image{
+		background:url("../images/devices-xs.png") no-repeat;
+		height:110px;
+	}
+}
+
